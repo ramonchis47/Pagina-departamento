@@ -10,10 +10,13 @@ body {
   font-size: 16px;
 }
 
+.show {
+  display: flex !important;
+}
+
 nav {
   display: flex;
   align-items: center;
-
   justify-content: space-evenly;
   background-color: #202020;
 }
@@ -25,11 +28,13 @@ nav ul {
   display: flex;
 }
 
-nav ul li > a {
+nav ul li > a,
+nav ul a {
   display: block; /* Para poder manipular el padding mejor */
   position: relative;
   padding: 20px 15px 10px;
   text-decoration: none;
+  font-size: 17px;
   color: #c7c7c7;
 }
 
@@ -70,6 +75,7 @@ header {
   right: 20px;
   text-align: justify;
   border-radius: 5px;
+  z-index: 100;
 }
 
 footer {
@@ -77,10 +83,11 @@ footer {
   width: 100%;
   display: flex;
   justify-content: space-between;
-
 }
 
-#columna1, #columna2, #columna3{
+#columna1,
+#columna2,
+#columna3 {
   margin-top: 20px;
   color: #c7c7c7;
   max-width: 50%;
@@ -92,7 +99,7 @@ footer {
   min-width: 450px;
 }
 
-footer #columna2 ul li{
+footer #columna2 ul li {
   list-style: none;
   font-size: 14px;
   margin-top: 10px;
@@ -108,17 +115,91 @@ footer #columna2 ul li a {
   min-width: 150px;
 }
 
+.mas,
+.mas2 {
+  display: none;
+}
+
+.menu-mas,
+.menu-mas2 {
+  position: absolute;
+  flex-direction: column;
+  background-color: #202020;
+  margin-top: 75px;
+  min-width: 200px;
+  border-radius: 5px;
+
+  display: none;
+  z-index: 200;
+}
+
+.menu-mas a,
+.menu-mas2 a {
+  padding: 10px;
+}
+
+/* ---------------- Medias querys ---------------- */
+
 @media screen and (max-width: 1262px) {
   nav .link-hide {
     display: none;
   }
+
+  #bienvenida {
+    left: 0;
+    top: 170px;
+    right: 0;
+    margin: auto;
+  }
+
+  nav .mas {
+    display: flex;
+  }
+
+  nav .menu-mas :hover {
+    background-color: #c7c7c7;
+    color: #202020;
+  }
 }
 
-@media screen and (max-width: 1140px){
+@media screen and (max-width: 1030px) {
+  nav .link-hide {
+    display: none;
+  }
+
+  nav .link-hide-hide {
+    display: none;
+  }
+
+  nav .mas {
+    display: none;
+  }
+
+  nav .mas2 {
+    display: flex;
+  }
+
+  nav .menu-mas2 :hover {
+    background-color: #c7c7c7;
+    color: #202020;
+  }
+}
+
+/* footer responsivo */
+@media screen and (max-width: 1140px) {
   #columna3 {
     display: none;
   }
   footer {
     justify-content: space-evenly;
+  }
+}
+
+@media screen and (max-width: 805px) {
+  .link-hide {
+    display: none;
+  }
+  .link-hide-hide {
+    display: none;
   }
 }
