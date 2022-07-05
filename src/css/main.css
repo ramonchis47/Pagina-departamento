@@ -138,6 +138,56 @@ footer #columna2 ul li a {
   padding: 10px;
 }
 
+/* ---------------- NAV Mobile ---------------- */
+.mobile {
+  display: none;
+  width: 100%;
+}
+
+nav .mobile .header {
+  display: flex;
+  text-align: center;
+  background-color: #202020;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+nav .mobile .header a {
+  /* Iconos de la parte mobile */
+  color: white;
+  text-decoration: none;
+  display: inline-flex;
+  padding: 10px;
+}
+
+nav .mobile .header #bMenuMobile {
+  border: none;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+nav .mobile .linksMobile {
+  display: none;
+  flex-direction: column;
+  position: relative;
+  background-color: #202020;
+  z-index: 200; 
+  text-align: center;
+}
+
+nav .mobile .linksMobile a:hover{
+  background-color: #c7c7c7;
+  color: #202020;
+}
+
+nav .mobile .linksMobile a {
+  color: #c7c7c7;
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+  padding: 10px 20px;
+}
 /* ---------------- Medias querys ---------------- */
 
 @media screen and (max-width: 1262px) {
@@ -159,6 +209,10 @@ footer #columna2 ul li a {
   nav .menu-mas :hover {
     background-color: #c7c7c7;
     color: #202020;
+  }
+
+  header {
+    background-position: left center;
   }
 }
 
@@ -183,6 +237,7 @@ footer #columna2 ul li a {
     background-color: #c7c7c7;
     color: #202020;
   }
+
 }
 
 /* footer responsivo */
@@ -199,7 +254,49 @@ footer #columna2 ul li a {
   .link-hide {
     display: none;
   }
+
   .link-hide-hide {
     display: none;
+  }
+
+  #bienvenida {
+    width: 100%;
+    padding: auto;
+    height: 500px;
+
+    font-size: 20px;
+    /* letter-spacing: 1px; */
+    text-align: justify;
+    height: auto;
+    top: 200px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+
+  nav ul {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  footer div{
+    font-size: 18px;
+  }
+
+  nav {
+    padding: 25px 20px 15px;
+  }
+
+  #bienvenida {
+    background-color: #202020;
+    text-align: left;
+    font-size: 15px;
+  }
+
+  footer #columna1{
+
   }
 }

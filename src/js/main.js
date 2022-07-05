@@ -17,3 +17,13 @@ menuMas2.addEventListener("click", (e) => {
 
     menu_A_revelar2.classList.toggle("show")
 })
+
+// Para mostrar el boton de nav mobile
+const bMenuMobile = document.querySelector("#bMenuMobile")
+const bMenuMobile_revelar = document.querySelector(".mobile .linksMobile")
+
+bMenuMobile.addEventListener("click", (e) => {
+    e.preventDefault();
+
+    bMenuMobile_revelar.classList.toggle("show")
+})
