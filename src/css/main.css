@@ -171,11 +171,11 @@ nav .mobile .linksMobile {
   flex-direction: column;
   position: relative;
   background-color: #202020;
-  z-index: 200; 
+  z-index: 200;
   text-align: center;
 }
 
-nav .mobile .linksMobile a:hover{
+nav .mobile .linksMobile a:hover {
   background-color: #c7c7c7;
   color: #202020;
 }
@@ -266,7 +266,7 @@ nav .mobile .linksMobile a {
     text-align: justify;
     height: auto;
     top: 200px;
-  } 
+  }
 
   nav ul {
     display: none;
@@ -283,7 +283,6 @@ nav .mobile .linksMobile a {
 
 /* mobile */
 @media screen and (max-width: 570px) {
-
   nav ul {
     display: none;
   }
@@ -292,7 +291,7 @@ nav .mobile .linksMobile a {
     display: block;
   }
 
-  footer div{
+  footer div {
     font-size: 18px;
   }
 
@@ -306,4 +305,25 @@ nav .mobile .linksMobile a {
     font-size: 15px;
   }
 
+  footer {
+    display: list-item;
+  }
+
+  footer #columna1,
+  #columna2 {
+    margin: auto;
+    font-size: 15px;
+  }
+
+  footer #columna1 {
+    max-width: 75%;
+  }
+
+  #columna2 h3, #columna1 h3{
+    display: none;
+  }
+
+  footer #columna2 ul li {
+    margin-top: 5px;
+  }
 }
