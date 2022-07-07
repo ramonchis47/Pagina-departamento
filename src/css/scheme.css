@@ -61,7 +61,9 @@
 
   nav .mobile .linksMobile a:hover  {
     color: var(--body-color);
-    background-color: var(--title-color);
+    background-color: var(--text-color);
+    transition: all ease 0.3s;
+
   }
 
 }
