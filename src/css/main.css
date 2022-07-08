@@ -83,7 +83,7 @@ header {
   z-index: 100;
 }
 
-#bienvenida h2{
+#bienvenida h2 {
   color: var(--title-color);
 }
 
@@ -330,7 +330,8 @@ nav .mobile .linksMobile a {
     max-width: 75%;
   }
 
-  #columna2 h3, #columna1 h3{
+  #columna2 h3,
+  #columna1 h3 {
     display: none;
   }
 
