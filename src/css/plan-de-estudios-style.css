@@ -30,8 +30,27 @@
 #contedor-tabla caption {
   font-size: 18px;
   padding: 1%;
-  background-color: #d09d0a;
   margin-top: 5px;
+}
+
+.caption1 {
+  background-color: rgb(255, 217, 0);
+}
+
+.caption2 {
+  background-color: orange;
+}
+
+.caption3 {
+  background-color: green;
+}
+
+.caption4 {
+  background-color: rgb(91, 91, 248);
+}
+
+.caption5 {
+  background-color: turquoise;
 }
 
 #contedor-tabla {
