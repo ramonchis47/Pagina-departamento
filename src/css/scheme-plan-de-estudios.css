@@ -1,0 +1,23 @@
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text-color: #c7c7c7;
+        --body-color: #202020;
+        --title-color: #b7b7b7;
+      }
+
+    #contenido, #contenido-tabla, span {
+        color: var(--title-color);
+    }
+
+    #contenido-tabla caption {
+        color: var(--body-color);
+    }
+
+    #main-container {
+        background-color: #303030;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    
+}
