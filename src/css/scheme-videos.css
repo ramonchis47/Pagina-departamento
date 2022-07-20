@@ -1,0 +1,20 @@
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text-color: #c7c7c7;
+        --body-color: #202020;
+        --title-color: #b7b7b7;
+      }
+
+    body {
+        background-color: #303030;
+    }
+
+    #info {
+        color: var(--text-color);
+    }
+
+    #info select{
+        background-color: #353535;
+        color: var(--text-color);
+    }
+}
