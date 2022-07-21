@@ -9,12 +9,7 @@
     background-color: #303030;
   }
 
-  #info {
-    color: var(--text-color);
-  }
-
-  #info select {
-    background-color: #353535;
+  .card {
     color: var(--text-color);
   }
 }
