@@ -24,11 +24,11 @@
     background-color: var(--title-color);
   }
 
-  #bienvenida h2 {
+  #bienvenida h2, #primer_i h2, #primer_i h3 {
     color: var(--title-color);
   }
 
-  #bienvenida {
+  #bienvenida, #primer_i {
     background-color: rgba(251, 251, 254, 0.9);
     color: var(--text-color);
   }
