@@ -93,13 +93,13 @@ header {
 
 #primer_i {
   color: var(--text-color);
-  width: 600px;
+  width: 700px;
   position: absolute;
   background-color: rgba(32, 32, 32, 0.9);
   left: 20px;
   top: 755px;
   border-radius: 5px;
-  padding: 20px;
+  padding: 15px;
   z-index: 100;
 }
 
@@ -307,11 +307,10 @@ nav .mobile .linksMobile a {
   #primer_i {
     width: 100%;
     padding: auto;
-    height: 500px;
 
     text-align: justify;
     height: auto;
-    top: 800px;
+    top: 750px;
   }
 
   nav ul {
@@ -345,7 +344,8 @@ nav .mobile .linksMobile a {
     padding: 25px 20px 15px;
   }
 
-  #bienvenida, #primer_i {
+  #bienvenida,
+  #primer_i {
     background-color: var(--body-color);
     text-align: left;
     font-size: 15px;
