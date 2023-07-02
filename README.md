@@ -6,10 +6,10 @@ El objetivo de este sitio es proporcionar información relevante sobre el depart
 
 Características del proyecto:
 
-Interfaz intuitiva y atractiva diseñada con HTML y CSS para una experiencia de usuario agradable.
-Contenido informativo sobre los programas académicos ofrecidos, incluyendo plan de estudios, requisitos de admisión y perfiles de profesores.
-Sección de convocatorias dentro del departamento.
-Recursos adicionales como enlaces a bibliotecas digitales, tutoriales y materiales de estudio para apoyar el aprendizaje de los estudiantes.
+- Interfaz intuitiva y atractiva diseñada con HTML y CSS para una experiencia de usuario agradable.
+- Contenido informativo sobre los programas académicos ofrecidos, incluyendo plan de estudios, requisitos de admisión y perfiles de profesores.
+- Sección de convocatorias dentro del departamento.
+- Recursos adicionales como enlaces a bibliotecas digitales, tutoriales y materiales de estudio para apoyar el aprendizaje de los estudiantes.
 
-Link ya desplegado: 
+- Link ya desplegado: https://ramonchis47.github.io/Pagina-Departamento/
 Nota: Este proyecto es puramente educativo y no está asociado de ninguna manera con la institución académica mencionada anteriormente.
