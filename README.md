@@ -12,4 +12,5 @@ Características del proyecto:
 - Recursos adicionales como enlaces a bibliotecas digitales, tutoriales y materiales de estudio para apoyar el aprendizaje de los estudiantes.
 
 Link ya desplegado: https://ramonchis47.github.io/Pagina-Departamento/
+
 Nota: Este proyecto es puramente educativo y no está asociado de ninguna manera con la institución académica mencionada anteriormente.
