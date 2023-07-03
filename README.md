@@ -1,7 +1,7 @@
 # Página Departamento
 ¡Bienvenido al repositorio de la Página Departamento!
 
-Este proyecto es un sitio web desarrollado exclusivamente con ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white), ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) y ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) para el Departamento de Ingeniería en Ciencias Computacionales de Cutonala. 
+Este proyecto es un sitio web desarrollado exclusivamente con ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)  ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) para el Departamento de Ingeniería en Ciencias Computacionales de Cutonala. 
 El objetivo de este sitio es proporcionar información relevante sobre el departamento, sus convocatorias, plan de estudios, cursos para estudiante y mas.
 
 Características del proyecto:
