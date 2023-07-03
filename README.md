@@ -1,7 +1,7 @@
 # Página Departamento
 ¡Bienvenido al repositorio de la Página Departamento!
 
-Este proyecto es un sitio web desarrollado exclusivamente con <img src="{https://img.shields.io/badge/Codecov-F01F7A?style=for-the-badge&logo=Codecov&logoColor=white}" /> JavaScript, CSS y HTML para el Departamento de Ingeniería en Ciencias Computacionales de Cutonala. 
+Este proyecto es un sitio web desarrollado exclusivamente con ![image]({[BadgeURLHere](https://img.shields.io/badge/Codecov-F01F7A?style=for-the-badge&logo=Codecov&logoColor=white)}) JavaScript, CSS y HTML para el Departamento de Ingeniería en Ciencias Computacionales de Cutonala. 
 El objetivo de este sitio es proporcionar información relevante sobre el departamento, sus convocatorias, plan de estudios, cursos para estudiante y mas.
 
 Características del proyecto:
