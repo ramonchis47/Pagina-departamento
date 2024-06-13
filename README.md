@@ -11,6 +11,6 @@ Características del proyecto:
 - Sección de convocatorias dentro del departamento.
 - Recursos adicionales como enlaces a bibliotecas digitales, tutoriales y materiales de estudio para apoyar el aprendizaje de los estudiantes.
 
-Link ya desplegado: https://ramonchis47.github.io/Pagina-Departamento/
+Link ya desplegado: https://erick-hernandez-ortega.github.io/Pagina-Departamento/
 
 Nota: Este proyecto es puramente educativo y no está asociado de ninguna manera con la institución académica mencionada anteriormente.
